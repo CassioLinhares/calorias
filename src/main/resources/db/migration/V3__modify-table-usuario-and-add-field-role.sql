@@ -1,0 +1,4 @@
+ALTER TABLE tbl_usuario ADD (
+    ROLE VARCHAR2(50) DEFAULT 'USER',
+    CONSTRAINT email_unique UNIQUE (EMAIL)
+    );
